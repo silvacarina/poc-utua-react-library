@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button component > Button component renders correctly 1`] = `
+<button
+  className="_button_0696ee"
+  type="button"
+>
+  Submit
+</button>
+`;
+
+exports[`Button component > prop working 1`] = `
+<button
+  className="_button_0696ee"
+  type="reset"
+>
+  Reset
+</button>
+`;
