@@ -1,7 +1,9 @@
+import '../styles/style.global.css'
+
 import Button from './Button'
-import Greeting from './Greeting'
+import Card from './Card'
 
 export default {
   Button,
-  Greeting,
+  Card,
 }

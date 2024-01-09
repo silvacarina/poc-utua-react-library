@@ -1,0 +1,58 @@
+.containerCard {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid #D0D5DD;
+  border-radius: 8px;
+}
+
+.contentCard {
+  padding: 16px;
+}
+
+.image {
+  display: flex;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #101828;
+  margin: 0;
+  border: none;
+}
+
+.subTitle {
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 20px;
+  color: #667085;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  color: #475467;
+}
+
+.input {
+  display: flex;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #EAECF0;
+  margin-bottom: 16px;
+  color: #667085;
+}
+
+.button {
+  display: flex;
+  width: 100%;
+}
+
