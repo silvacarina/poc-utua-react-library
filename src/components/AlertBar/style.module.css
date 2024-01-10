@@ -23,6 +23,18 @@
   color: #9F580A;
 }
 
+.type-dark {
+  background-color: #101828;
+}
+
+.type-dark .title {
+  color: white;
+}
+
+.type-dark .description {
+  color: white;
+}
+
 .icons {
     color: #667085;
     display: flex;

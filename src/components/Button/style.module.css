@@ -18,7 +18,7 @@
 
 .type-secondary {
   color: #344054;
-  background: white;
+  background: none;
 }
 
 .type-success {
@@ -66,7 +66,6 @@
 .type-secondary:hover,
 .type-secondary:focus,
 .type-secondary:active {
-  background: #362250;
   box-shadow: 0 4px 8px 0 rgba(42, 19, 85, 0.25);
 }
 
