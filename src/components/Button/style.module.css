@@ -17,8 +17,8 @@
 }
 
 .type-secondary {
-  color: #eeecf2;
-  background: #553285;
+  color: #344054;
+  background: white;
 }
 
 .type-success {
@@ -29,6 +29,11 @@
 .type-danger {
   color: #fef5f7;
   background: #dd1212;
+}
+
+.size-white {
+  font-size: 14px;
+  line-height: 115%;
 }
 
 .size-s {

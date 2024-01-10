@@ -1,11 +1,16 @@
 .containerAlertBar {
-    display: flex;
-    flex-direction: column;
-    align-self: stretch;
-    width: 400px;
-    padding: 16px;
-    border: 1px solid #EAECF0;
-    border-radius: 8px;
+  display: flex;
+  width: 400px;
+  padding: 16px;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  gap: 8px;
+}
+
+.button {
+  background-color: white;
+  color: #344054;
+  border: none;
 }
 
 .icons {
@@ -13,33 +18,18 @@
     justify-content: space-between;
 }
 
-
-
-
-
-.contentAlertBar {
-    padding: 16px;
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #101828;
+  margin: 0;
+  border-bottom: none;
 }
 
-.title {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #101828;
-    margin: 0;
-    border: none;
-  }
-
-  .description {
-    color: #475467;
-    font-size: 14px;
-    font-weight: 400;
-    margin: 0;
-  }
-
-  .containerButton {
-    width: 308px;
-    height: 20px;
-  }
-
-  
+.description {
+  color: #475467;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}

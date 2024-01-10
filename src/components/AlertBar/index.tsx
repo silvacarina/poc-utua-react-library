@@ -6,24 +6,22 @@ interface AlertBarProps {
   title: string;
   description?: string;
   IconClose: React.ElementType;
-  Icon?: React.ElementType;
+  IconNotification?: React.ElementType;
 }
 
-const AlertBar = ({ title, description, IconClose, Icon }: AlertBarProps) => {
+const AlertBar = ({ title, description, IconClose, IconNotification: Icon }: AlertBarProps) => {
   return (
     <div className={style.containerAlertBar}>
-      <div className={style.icons}>
-        <IconClose />
-      </div>
       <div>
         {Icon && <Icon />}
       </div>
       <div className={style.contentAlertBar}>
         <h2 className={style.title}>{title}</h2>
         <p className={style.description}>{description}</p>
-        <div className={style.containerButton}>
-          <Button className={style.button} label="Click here" size="s" />
-        </div>
+        <div><Button label="Click here" size="white" variant="secondary" /></div>
+      </div>
+      <div className={style.icons}>
+        <IconClose />
       </div>
     </div>
   );
