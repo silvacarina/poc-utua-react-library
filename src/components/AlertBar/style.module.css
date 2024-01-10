@@ -7,21 +7,22 @@
   gap: 12px;
 }
 
-.IconNotification.IconInfo {
-    color: #266EF1;
+.iconNotification.info {
+  color: #266EF1;
 }
 
-.IconNotification.IconCheck {
-    color: #039855;
+.iconNotification.check {
+  color: #039855;
 }
 
-.IconNotification.IconError {
-    color: #E02424;
-}  
-
-.IconNotification.IconWarning {
-    color: #9F580A;
+.iconNotification.error {
+  color: #E02424;
 }
+
+.iconNotification.warning {
+  color: #9F580A;
+}
+
 .icons {
     color: #667085;
     display: flex;
