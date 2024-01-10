@@ -1,6 +1,9 @@
 import AlertBar from "./index"
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
+import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutlineOutlined';
+import ErrorOutlineOutlinedIcon from '@mui/icons-material/ErrorOutlineOutlined';
+import WarningAmberOutlinedIcon from '@mui/icons-material/WarningAmberOutlined';
 
 <AlertBar
   iconVariant="info"
@@ -12,7 +15,7 @@ import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
   <hr />
   <AlertBar
   iconVariant="check"
-  IconNotification={InfoOutlinedIcon}
+  IconNotification={CheckCircleOutlineOutlinedIcon}
   IconClose={CloseOutlinedIcon}
   title="Notification title"
   description="Lorem ipsum dolor sit amet consectetur. Porta aliquet placerat velit pharetra malesuada."
@@ -20,7 +23,15 @@ import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
   <hr />
   <AlertBar
   iconVariant="error"
-  IconNotification={InfoOutlinedIcon}
+  IconNotification={ErrorOutlineOutlinedIcon}
+  IconClose={CloseOutlinedIcon}
+  title="Notification title"
+  description="Lorem ipsum dolor sit amet consectetur. Porta aliquet placerat velit pharetra malesuada."
+  />
+  <hr />
+  <AlertBar
+  iconVariant="warning"
+  IconNotification={WarningAmberOutlinedIcon}
   IconClose={CloseOutlinedIcon}
   title="Notification title"
   description="Lorem ipsum dolor sit amet consectetur. Porta aliquet placerat velit pharetra malesuada."
