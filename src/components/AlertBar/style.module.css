@@ -13,15 +13,9 @@
     justify-content: space-between;
 }
 
-.iconinfo {
-    width: 24px;
-    height: 24px;
-}
 
-.iconclose {
-    width: 24px;
-    height: 24px;
-}
+
+
 
 .contentAlertBar {
     padding: 16px;
@@ -43,7 +37,7 @@
     margin: 0;
   }
 
-  .divbutton {
+  .containerButton {
     width: 308px;
     height: 20px;
   }
