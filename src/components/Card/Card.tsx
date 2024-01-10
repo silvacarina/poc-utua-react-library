@@ -1,4 +1,4 @@
-import Button from "../Button";
+import { Button } from "../Button/Button";
 import style from "./style.module.css";
 
 interface CardProps {
@@ -8,7 +8,7 @@ interface CardProps {
   image?: string
 }
 
-const Card = ({ title, subtitle, paragraph, image } : CardProps) => {
+export const Card = ({ title, subtitle, paragraph, image } : CardProps) => {
   return (
     <div className={style.containerCard}>
       <img className={style.image} src={image} />
@@ -22,5 +22,3 @@ const Card = ({ title, subtitle, paragraph, image } : CardProps) => {
     </div>
   )
 }
-
-export default Card

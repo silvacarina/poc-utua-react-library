@@ -1,7 +1,7 @@
 import React from "react";
 import classNames from 'classnames';
 import style from "./style.module.css";
-import Button from "../Button";
+import { Button } from "../Button/Button";
 
 interface AlertBarProps {
   title: string;
@@ -12,7 +12,7 @@ interface AlertBarProps {
   IconNotification?: React.ElementType;
 }
 
-const AlertBar = ({ title, description, IconClose, IconNotification: Icon, iconVariant='info', type='light' }: AlertBarProps) => {
+export const AlertBar = ({ title, description, IconClose, IconNotification: Icon, iconVariant='info', type='light' }: AlertBarProps) => {
 
   return (
     <div className={classNames(style.containerAlertBar, style[`type-${type}`])}>
@@ -32,5 +32,3 @@ const AlertBar = ({ title, description, IconClose, IconNotification: Icon, iconV
     </div>
   );
 };
-
-export default AlertBar;

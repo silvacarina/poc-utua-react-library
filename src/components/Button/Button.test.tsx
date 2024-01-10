@@ -1,6 +1,6 @@
 import renderer from 'react-test-renderer'
 import { describe, expect, it } from 'vitest'
-import Button from './index'
+import { Button } from './Button'
 
 describe('Button component', () => {
   it('Button component renders correctly', () => {

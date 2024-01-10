@@ -19,7 +19,7 @@ interface ButtonProps {
   [x: string]: unknown; // para propriedades adicionais
 }
 
-const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(function ButtonComponent(
+export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(function ButtonComponent(
   {
     className,
     type,
@@ -58,5 +58,3 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(function ButtonC
     </ButtonElement>
   )
 })
-
-export default Button
