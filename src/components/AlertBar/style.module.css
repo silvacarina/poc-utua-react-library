@@ -4,16 +4,26 @@
   padding: 16px;
   border: 1px solid #EAECF0;
   border-radius: 8px;
-  gap: 8px;
+  gap: 12px;
 }
 
-.button {
-  background-color: white;
-  color: #344054;
-  border: none;
+.IconNotification.IconInfo {
+    color: #266EF1;
 }
 
+.IconNotification.IconCheck {
+    color: #039855;
+}
+
+.IconNotification.IconError {
+    color: #E02424;
+}  
+
+.IconNotification.IconWarning {
+    color: #9F580A;
+}
 .icons {
+    color: #667085;
     display: flex;
     justify-content: space-between;
 }
