@@ -7,7 +7,7 @@ interface AlertBarProps {
   title: string;
   description?: string;
   iconVariant?: 'info' | 'check' | 'error' | 'warning';
-  type: 'light' | 'dark'
+  type?: 'light' | 'dark'
   IconClose: React.ElementType;
   IconNotification?: React.ElementType;
 }
