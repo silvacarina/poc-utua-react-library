@@ -24,7 +24,7 @@
 }
 
 .type-dark {
-  background-color: #101828;
+  background-color: var(--teste-de-tokens);
 }
 
 .type-dark .title {

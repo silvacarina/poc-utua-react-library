@@ -13,7 +13,7 @@
 
 .type-primary {
   color: #fdf3e1;
-  background: #D03801;
+  background: var(--teste-de-tokens);
 }
 
 .type-secondary {
