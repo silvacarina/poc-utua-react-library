@@ -5,6 +5,14 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+@supports (font-variation-settings: normal) {
+  html,
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
 :root {
   --teste-de-tokens: black;
+  --teste-de-fonte: 'Montserrat', sans-serif;
 }

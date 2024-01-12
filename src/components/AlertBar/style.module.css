@@ -1,6 +1,7 @@
 .containerAlertBar {
   display: flex;
   width: 400px;
+  font-family: var(--teste-de-fonte);
   padding: 16px;
   border: 1px solid #EAECF0;
   border-radius: 8px;
